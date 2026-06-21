@@ -29,9 +29,8 @@
 ├── agents/
 │   └── openai.yaml
 ├── assets/
-│   ├── gh-auth-success.png
-│   ├── git-push-conflict.png
-│   └── github-push-guide.png
+│   ├── daily-report-doc.png
+│   └── notification-card.png
 └── references/
     └── demo-day-profile.md
 ```
@@ -126,32 +125,22 @@ Skill 默认会确保这些内容被覆盖：
 
 ## 界面截图
 
-### GitHub 推送示例
+### 推送卡片
 
-下面这张图是把独立仓库推到 GitHub 的命令示例：
+下面这张图是日报更新完成后发送的通知卡片示例：
 
-![GitHub push guide](assets/github-push-guide.png)
+![Notification card](assets/notification-card.png)
 
-### GitHub CLI 登录成功
+### 整理后的日报文档
 
-这张图展示 `gh auth login` 完成后的状态：
+这张图展示写回飞书后的日报文档效果，包含当天标题、浅绿色高亮区块和正文结构：
 
-![GitHub auth success](assets/gh-auth-success.png)
-
-### 常见推送冲突
-
-如果新仓库里先有网页上传产生的远端提交，直接 `git push` 会遇到这种 `fetch first` 冲突：
-
-![Git push conflict](assets/git-push-conflict.png)
-
-这种情况下，先抓远端、合并历史，再推送即可。不要第一反应就强推。
+![Daily report doc](assets/daily-report-doc.png)
 
 ## 后续可补的内容
 
 如果你想把 README 再补完整，下一步最值得加的是：
 
-- 一张飞书日报文档的实际页面截图
-- 一张完成后发送卡片通知的截图
 - 一段最小可运行的自动化示例
 
 ## 仓库地址
