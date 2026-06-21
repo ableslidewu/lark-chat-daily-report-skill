@@ -1,0 +1,4 @@
+interface:
+  display_name: "飞书群日报"
+  short_description: "整理飞书群消息、持续更新固定日报文档并发送完成通知卡片"
+  default_prompt: "Use $lark-chat-daily-report to整理指定飞书群某一天的核心消息，更新固定日报文档，并发送完成通知。"
